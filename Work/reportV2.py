@@ -1,6 +1,6 @@
 import csv
 
-def portfolio_cost(filename):
+def read_portfolio(filename):
 	'''Computes the total cost (shares*price) of a portfolio file'''
 	portfolio = []
 	
