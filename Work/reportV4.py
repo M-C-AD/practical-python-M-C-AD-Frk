@@ -44,8 +44,8 @@ def create_report (portfolio, prices):
      stock = ()
      change = 0.0
     for row in portfolio:
-             newPrice = prices[row['name']]
-             change = newPrice - row['price']
-             stock = (row['name'], row['shares'], row['price'], change)
-            report.append(stock)
+		newPrice = prices[row['name']]
+		change = newPrice - row['price']
+		stock = (row['name'], row['shares'], row['price'], change)
+		report.append(stock)
     return report
