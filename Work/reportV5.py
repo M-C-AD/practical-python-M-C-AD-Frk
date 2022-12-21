@@ -52,5 +52,5 @@ def make_report_data(portfolio, prices):
         
 # Read data files and create the report data        
 
-portfolio = read_portfolio('../../Work/Data/portfolio.csv')
-prices    = read_prices('../../Work/Data/prices.csv')
+portfolio = read_portfolio('Data/portfolio.csv')
+prices    = read_prices('Data/prices.csv')
