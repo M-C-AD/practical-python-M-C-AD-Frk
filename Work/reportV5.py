@@ -55,6 +55,8 @@ def make_report_data(portfolio, prices):
 portfolio = read_portfolio('Data/portfolio.csv')
 prices    = read_prices('Data/prices.csv')
 
+headers =('Name', 'Shares', 'Price', 'Change')
+headers = f'{headers[0]:>10s} {" "} {headers[1]:>10s} {" "} {headers[2]:>10s} {" "} {headers[3]:>10s}')
 # Generate the report data
 
 report    = make_report_data(portfolio, prices)
