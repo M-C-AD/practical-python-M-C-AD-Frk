@@ -62,7 +62,7 @@ print('%10s %10s %10s %10s' % headers)
 print(('-' * 10 +' ') * len(headers))
 
 for row in report:
-	print('%10s %10d %10.2f %10.2f' % row)
+	print('%10s %10d $ %10.2f %10.2f' % row)
 # Generate the report data
 
 report    = make_report_data(portfolio, prices)
