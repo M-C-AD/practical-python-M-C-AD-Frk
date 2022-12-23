@@ -58,7 +58,7 @@ prices    = read_prices('Data/prices.csv')
 report = make_report_data(portfolio, prices)
 
 headers =('Name', 'Shares', 'Price', 'Change')
-print('%10s %10d %10.2f %10.2f' % headers)
+print('%10s %10s %10s %10s' % headers)
 print(('-' * 10 +' ') * len(headers))
 
 for row in report:
